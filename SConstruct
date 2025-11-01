@@ -7,7 +7,7 @@ import sys
 godot_cpp_src_dir = os.getenv("GODOT_CPP_SRC")
 
 # Required build argument for where to dump plugin lib 
-output_dir = ARGUMENTS["out"]
+output_dir = ARGUMENTS.get("out", "build")
     
 env = SConscript(f"{godot_cpp_src_dir}/SConstruct", variant_dir=output_dir)
 
