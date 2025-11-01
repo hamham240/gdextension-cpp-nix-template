@@ -9,3 +9,6 @@ Linux Release `scons out=build platform=linux target=template_release`
 Windows Debug `scons out=build platform=windows target=template_debug`
 
 Windows Release `scons out=build platform=windows target=template_release`
+
+## Dependencies
+Nix 25.05 package manager or NixOS
