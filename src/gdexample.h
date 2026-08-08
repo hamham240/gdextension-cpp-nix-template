@@ -10,6 +10,7 @@ class GDExample : public Sprite2D {
 
 private:
 	double time_passed;
+	Vector2 start_position;
 
 protected:
 	static void _bind_methods();
@@ -18,6 +19,7 @@ public:
 	GDExample();
 	~GDExample();
 
+	void _ready() override;
 	void _process(double delta) override;
 };
 
