@@ -1,3 +1,10 @@
 *.os
 .sconsign.dblite
 build
+
+godot_project/.godot/
+
+godot_project/bin/*.so
+godot_project/bin/*.dll
+godot_project/bin/*.dylib
+godot_project/bin/*.a

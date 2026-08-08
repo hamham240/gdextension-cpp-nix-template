@@ -47,4 +47,6 @@ else:
         source=sources,
     )
 
-Default(library)
+godot_project_library = env.Install("#godot_project/bin", library)
+
+Default(library, godot_project_library)
