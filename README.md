@@ -21,4 +21,5 @@ scons out=build platform=windows target=template_release
 ```
 ## Dependencies
 Nix 25.05 package manager or NixOS
+
 Godot 4.5 is needed to run the Godot project in `godot_project/`, but not to build the extension.
